@@ -1,7 +1,7 @@
 # Emergency Medical Services Platform Optimization - Nairobi Case Study
 
 **Research Paper:** "The Value of Time- and Location-Commitment for Decentralized Emergency Medical Services"
-**Journal:** Manufacturing & Service Operations Management (M&SOM) - Major Revision
+**Journal:** Working Paper
 **Authors:** van den Berg, Calmon, Gernert, Lemmens, Rabinovich, Romero
 
 ## Overview
