@@ -46,13 +46,11 @@ library(tidyverse)  # For data manipulation
 library(lubridate)  # For date handling (not actively used in this script)
 library(igraph)     # For graph construction and shortest path algorithms
 
-# Set working directory
-# NOTE: Update this path to match your local directory structure
-setwd("~/Dropbox (Personal)/Georgia Tech Research/Flare/Data Uber/Data")
-
 # ============================================================================
 # Load Preprocessed Uber Movement Data
 # ============================================================================
+# Assumes script is run from repository root (where Uber-Nairobi-Weekdays.csv is located)
+# After cloning from GitHub, no path modification needed
 df = read_csv("Uber-Nairobi-Weekdays.csv")
 
 # Determine total number of unique zones

@@ -39,10 +39,10 @@ library(igraph)
 # 1. LOAD DATA
 ################################################################################
 
-setwd("~/Dropbox (Personal)/Georgia Tech Research/Flare/Data Uber/Data")
-
 # Read preprocessed Uber travel time data
 # This file contains only the most recent month for each source-destination pair
+# Assumes script is run from repository root (where Uber-Nairobi-Weekdays.csv is located)
+# After cloning from GitHub, no path modification needed
 df = read_csv("Uber-Nairobi-Weekdays.csv")
 
 # Determine number of unique hexcluster nodes

@@ -79,20 +79,6 @@ Uber Technologies, Inc. (2018). H3: A Hexagonal Hierarchical Geospatial Indexing
 [Computer software]. GitHub. https://github.com/uber/h3
 ```
 
-### 3. Flare Operational Data
-
-**Industry Partner:** Flare (rescue.co)
-- Emergency Medical Services platform operating in Nairobi, Kenya
-- Operational data provided under research partnership agreement
-- **Data Period:** August 2017 - August 2021
-- **Records:** 6,840 emergency incidents in Nairobi metropolitan area
-- **Variables:** Incident locations, ambulance base locations, response times
-- **Privacy:** Data subject to partnership confidentiality agreement; not publicly released
-- **Contact:** Maria Rabinovich (maria@rescue.co)
-
-**Data Statement:**
-> Flare operational data is proprietary and subject to partnership agreements. It is not included in the public repository. Aggregated statistics and de-identified insights are reported in the research paper.
-
 ---
 
 ## Academic Literature: Uber Movement Methodology
@@ -299,7 +285,7 @@ Daskin, M. S. (1983). A maximum expected covering location model: Formulation, p
 
 ### Suggested Text
 
-> **Data Availability:** The Uber Movement travel time data used in this study was obtained from the Uber Movement platform (movement.uber.com) in March 2022, prior to the platform's discontinuation. Uber Movement provided aggregated, anonymized travel time data for Nairobi, Kenya, covering the period from 2016-Q1 to 2020-Q1. As the platform is no longer operational, this specific dataset is not publicly accessible. Processed distance matrices (mean travel times and standard deviations) derived from the Uber Movement data will be made available upon publication at [repository URL]. Flare operational data is proprietary and subject to partnership confidentiality agreements; aggregated statistics are reported in the paper. The data processing code is available at https://github.com/[username]/ems-platform.
+> **Data Availability:** The Uber Movement travel time data used in this study was obtained from the Uber Movement platform (movement.uber.com) in March 2022, prior to the platform's discontinuation. Uber Movement provided aggregated, anonymized travel time data for Nairobi, Kenya, covering the period from 2016-Q1 to 2020-Q1. As the platform is no longer operational, this specific dataset is not publicly accessible. Processed distance matrices (mean travel times and standard deviations) derived from the Uber Movement data will be made available upon publication at [repository URL]. The data processing code is available at https://github.com/[username]/ems-platform.
 
 ---
 
@@ -308,14 +294,12 @@ Daskin, M. S. (1983). A maximum expected covering location model: Formulation, p
 ### Data Providers
 
 - **Uber Technologies:** For making Movement data available for research purposes (2017-2022)
-- **Flare:** For providing operational EMS data under research partnership
 - **Uber Open Source:** For maintaining the H3 spatial indexing system
 
 ### Data Collection
 
 - Original Uber Movement data: Aggregated from Uber ride GPS traces in Nairobi
-- Flare incident data: Collected through operational EMS dispatch system
-- Data anonymization: Performed by Uber (Movement) and research team (Flare)
+- Data anonymization: Performed by Uber Technologies
 
 ---
 

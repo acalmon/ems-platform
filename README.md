@@ -39,16 +39,6 @@ Data is split into:
 
 **Important Note:** Uber Movement platform was discontinued around 2022. The data used in this study was downloaded prior to platform closure and is no longer publicly available.
 
-### 2. Flare Operational Data (2017-2021)
-
-**Source:** Flare EMS Platform (industry partner)
-**Coverage:** 6,840 emergency incidents in Nairobi
-**Period:** August 2017 to August 2021
-**Variables:**
-- Incident locations (coordinates mapped to hexclusters)
-- Ambulance base locations (~340 ambulances)
-- Response times and service records
-
 ## Repository Structure
 
 ```
@@ -156,8 +146,6 @@ source("Std Dev Matrix.R")
 - **Coverage Threshold:** 15 minutes (900 seconds)
 - **Pre-trip Delay:** 3 minutes for ambulance dispatch and crew mobilization
 - **Response Time Calculation:** Pre-trip delay + travel time ≤ 15 minutes
-- **Ambulance Availability:** q = 0.25 (25% time commitment) for baseline uncommitted fleet
-- **Demand Estimation:** Based on 6,370 Flare incidents within Nairobi boundaries
 
 ## Data Limitations & Considerations
 
@@ -201,11 +189,11 @@ For questions about the data processing pipeline or research methodology, please
 
 ## License
 
-Research code and documentation are provided for academic and research purposes. Uber Movement data subject to original Uber Technologies terms of use. Flare operational data subject to partnership agreement and not included in public repository.
+Research code and documentation are provided for academic and research purposes. Uber Movement data subject to original Uber Technologies terms of use.
 
 ## Acknowledgments
 
-We thank Flare for providing operational data and supporting this research. We acknowledge Uber Technologies for making Movement data available for research purposes prior to platform discontinuation.
+We acknowledge Uber Technologies for making Movement data available for research purposes prior to platform discontinuation.
 
 ---
 

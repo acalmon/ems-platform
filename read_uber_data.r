@@ -30,14 +30,13 @@
 library(tidyverse)  # For data manipulation (dplyr, tibble)
 library(lubridate)  # For date parsing and handling
 
-# Set working directory to Uber Movement data location
-# NOTE: Update this path to match your local directory structure
-dir = "~/Dropbox (Personal)/Georgia Tech Research/Flare/Data Uber/Data"
+# Set data directory to Nairobi_Uber_Data subdirectory
+# This assumes the script is run from the repository root
+# After cloning from GitHub, no path modification needed
+data_dir = "Nairobi_Uber_Data"
 
-setwd(dir)
-
-# Get list of all CSV files in the directory
-files = list.files(path=dir, pattern="*.csv", full.names=TRUE, recursive=FALSE)
+# Get list of all CSV files in the Nairobi_Uber_Data directory
+files = list.files(path=data_dir, pattern="*.csv", full.names=TRUE, recursive=FALSE)
 
 # ============================================================================
 # IMPORTANT: Set day type to process
