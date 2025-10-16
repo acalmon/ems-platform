@@ -1,7 +1,9 @@
 # Emergency Medical Services Platform Optimization - Nairobi Case Study
 
 **Research Paper:** "The Value of Time- and Location-Commitment for Decentralized Emergency Medical Services"
+
 **Journal:** Working Paper
+
 **Authors:** van den Berg, Calmon, Gernert, Lemmens, Rabinovich, Romero
 
 ## Overview
